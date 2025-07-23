@@ -1,6 +1,6 @@
-var marks = [80,90,92,78,99]
+var marks = [80,90,92,78,99,300];
 console.log(marks.length);
 marks.push(100);
-console.log(marks)
+console.log(marks);
 marks.pop(80);
 console.log(marks);
