@@ -1,4 +1,4 @@
-var marks = [80,90,92,78,99,300];
+var marks = [80,90,92,78,99,200]
 console.log(marks.length);
 marks.push(100);
 console.log(marks);
