@@ -1,4 +1,4 @@
-var fruit = "apple";
+var fruit = "lion";
 var count = 10;
 var sum = 100;
 let total = count * sum;
