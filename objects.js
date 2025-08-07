@@ -10,8 +10,11 @@ var apple={
     condition:{
        good:"okay",
        bad:"not okay",
-    }
+    },
 
+    buy(a){
+     console.log();
+    },
     
 };
 delete apple.price,
@@ -25,4 +28,4 @@ for ( let x in apple )
 {
     console.log(apple.x)
 }
-
+apple.buy("grapes");
