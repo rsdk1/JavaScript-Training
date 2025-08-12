@@ -34,3 +34,15 @@ It’s my way of tracking progress while having fun learning!
 ⸻
 If you like this repo, ⭐ it and follow my journey! 🌟
 
+# **🔹 How to Use **
+Install VS code 
+node.js
+Clone this repository:
+git clone https://github.com/<your-username>/<your-repo-name>.git
+
+# AUTHOR : RajaSuma.D.K
+# Linkedin: www.linkedin.com/in/rsdk
+# Github: https://github.com/rsdk1
+# Website: https://rsdk.my.canva.site/
+
+
