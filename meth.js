@@ -1,12 +1,52 @@
-var a = " hello "
-var b = a.trim();
-console.log(a);
+// class Car {
+//     brand="audi";
+//     noOfTyres=6;
 
-var a = "apple,oranges,banana";
-var b = a.split(" , ");
-console.log(b);
+//     setDetails(brand,noOfTyres){
+//        this.brand = brand;
+//        this.noOfTyres = noOfTyres; 
+//        console.log(this.brand);
+//        console.log(this.noOfTyres);
+//     }
+
+//     displayDetails(){
+//        console.log(this.brand);
+//        console.log(this.noOfTyres);
+//     }
+// }
+
+// var k = new Car();
+// k.displayDetails();
+// k.setDetails("BMW",4);
+// k.displayDetails();
 
 
-var a = "the price is $250.00";
-var b = a.replace("the price is $"," ");
-console.log(b);
+class marks {
+    static computer = 100;
+    maths;
+    science;
+
+    constructor(a) {
+        console.log(a)
+        console.log("i am inside constructor");
+    }
+
+    static displayMark(a, b) {
+        console.log(this.computer);
+        console.log(a);
+        this.science = b;
+    }
+
+    getScore() {
+        console.log(this.science);
+    }
+}
+
+var x = new marks(56);
+var y = new marks("heelo y");
+x.computer = 1000;
+x.displayMark(200, 300);
+x.getScore();
+y.getScore();
+
+
