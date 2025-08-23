@@ -1,8 +1,8 @@
 class birds {
     peacock;
     crow;
-    eagle="big";
-    constructor(x) {
+    eagle = "big";
+    constructor(b) {
         // console.log("birds are great");
 
     }
@@ -11,13 +11,12 @@ class birds {
         this.peacock = "89897";
         console.log(this.peacock);
         console.log(this.eagle);
-          
-        if (this.eagle=="big")
-        {
+
+        if (this.eagle == "big") {
             // console.log("true");
- return true;
+            return true;
         }
-        else{
+        else {
             //console.log("false");
             return false;
         }
@@ -27,6 +26,6 @@ class birds {
 }
 var a = new birds("fly");
 var z = a.getFav();
-console.log(typeof(z));
+console.log(typeof (z));
 
 
